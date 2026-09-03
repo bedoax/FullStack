@@ -1,17 +1,20 @@
-## Build output and cache
-[Bb]in/
-[Ob]j/
-[Ll]og/
-[Ll]ogs/
+## Build output & intermediate binaries (All sub-projects)
+**/[Bb]in/
+**/[Ob]j/
+**/[Ll]og/
+**/[Ll]ogs/
 
-
+## Visual Studio & IDE files
 .vs/
 *.user
 *.userosscache
 *.sln.docstates
 *.suo
+.idea/
+.vscode/
+*.sln.iml
 
-## Secrets & Local Settings (Security)
+## Secrets & Local Settings
 secrets.json
 appsettings.Local.json
 appsettings.Development.json
@@ -25,10 +28,6 @@ appsettings.Development.json
 *.snupkg
 *.crp
 *.crpg
-## Other Editors
-.idea/
-*.sln.iml
-.vscode/
 
 ## Local Databases
 *.mdf
@@ -37,6 +36,3 @@ appsettings.Development.json
 *.bak
 *.db
 *.sqlite
-*.sqlserver
-
-
