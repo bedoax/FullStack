@@ -1,0 +1,63 @@
+:root {
+  /* Brand Colors */
+  --primary: #22C55E;
+  --primary-hover: #16A34A;
+
+  /* Surfaces & Backgrounds */
+  --background: #F8FAFC;
+  --surface: #FFFFFF;
+
+  /* Typography (تم ضبط الدرجة لتحقيق تباين ممتاز > 4.5:1) */
+  --text-primary: #0F172A;
+  --text-secondary: #475569; /* تعديل من #6B7280 لرفع درجة التباين */
+
+  /* Borders & Dividers */
+  --border: #E2E8F0;
+
+  /* Layout Components */
+  --navbar-background: #FFFFFF;
+
+  --sidebar-background: #FFFFFF;
+  --sidebar-hover: #F1F5F9; 
+  --sidebar-active: #22C55E;
+  --sidebar-active-text: #FFFFFF;
+
+  --card-background: #FFFFFF;
+
+  /* Status Indicators */
+  --success: #16A34A;
+  --warning: #D97706; 
+  --danger: #DC2626;
+}
+
+.dark {
+  /* Brand Colors */
+  --primary: #22C55E;
+  --primary-hover: #4ADE80; 
+
+  /* Surfaces & Backgrounds */
+  --background: #0F172A;
+  --surface: #1E293B;
+
+  /* Typography */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8; 
+
+  /* Borders & Dividers */
+  --border: #334155;
+
+  /* Layout Components */
+  --navbar-background: #1E293B;
+
+  --sidebar-background: #1E293B;
+  --sidebar-hover: #334155;
+  --sidebar-active: #22C55E;
+  --sidebar-active-text: #FFFFFF;
+
+  --card-background: #1E293B;
+
+  /* Status Indicators */
+  --success: #22C55E;
+  --warning: #FBBF24; 
+  --danger: #F87171;
+}

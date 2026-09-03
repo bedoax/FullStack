@@ -1,0 +1,42 @@
+## Build output and cache
+[Bb]in/
+[Ob]j/
+[Ll]og/
+[Ll]ogs/
+
+
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## Secrets & Local Settings (Security)
+secrets.json
+appsettings.Local.json
+appsettings.Development.json
+
+## Releases & Archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.nupkg
+*.snupkg
+*.crp
+*.crpg
+## Other Editors
+.idea/
+*.sln.iml
+.vscode/
+
+## Local Databases
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.db
+*.sqlite
+*.sqlserver
+
+
